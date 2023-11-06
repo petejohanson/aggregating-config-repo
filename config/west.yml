@@ -1,0 +1,19 @@
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
+  projects:
+    - name: revxlp-module
+      remote: petejohanson
+      revision: main
+    - name: blank-slate-module
+      remote: petejohanson
+      revision: main
+    - name: zmk
+      remote: petejohanson
+      revision: build/zephyr-module-keymap-loading-refactor
+      import: app/west.yml
+  self:
+    path: config
