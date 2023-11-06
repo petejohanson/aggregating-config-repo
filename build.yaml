@@ -1,3 +1,4 @@
-- board: seeeduino_xiao_ble
-  shield: revxlp
-- board: lpgalaxy_blank_slate
+include:
+  - board: seeeduino_xiao_ble
+    shield: revxlp
+  - board: lpgalaxy_blank_slate
